@@ -1,3 +1,16 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
 /* nav-sectiion styling */
 nav {
     display: flex;
@@ -10,89 +23,129 @@ nav {
     border-bottom-width: 1px;
     z-index: 3;
     top: -10px;
- }
+}
 
- .left-items {
-            display: flex;
-            align-items: center;
- }
+.left-items {
+    display: flex;
+    align-items: center;
+}
 
- .left-items ul {
-        list-style: none;
-        display: flex;
- }
- .left-items li {
-        margin: 8px 15px;
-        display: inline-flex;
-        align-items: center;
- }
- .left-items ul li strong {
-     font-size: 20px;
-     font-weight: bold;
-     
- }
-    .center-item {
-            text-align: center;
-            display:flex;
-            justify-content: center;
-            align-items: center;
+.left-items ul {
+    list-style: none;
+    display: flex;
+}
 
- }
-    .center-item img {
-        width: 232px;   
-    }
-    .center-item > div {
-        width: 50%;
-    }
-    .right-items {
-        justify-content: center;
-        float: right;
-        padding: 13px 20px 12px;
-    }
-    .right-items button {
-        padding: 8px;
-        margin:4px;
-        color: #ffffff;
-        background: #326891;
-        border: 1px solid #326891;
-        border-radius: 4px;
-        font-size: 13px;   
-    }
+.left-items li {
+    margin: 8px 15px;
+    display: inline-flex;
+    align-items: center;
+}
+.left-items ul li strong {
+    font-size: 20px;
+    font-weight: bold;
+}
+.center-item {
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.center-item img {
+    width: 232px;
+}
+.center-item > div {
+    width: 50%;
+}
+.right-items {
+    justify-content: center;
+    float: right;
+    padding: 13px 20px 12px;
+}
+.right-items button {
+    padding: 8px;
+    margin:4px;
+    color: #ffffff;
+    background: #326891;
+    border: 1px solid #326891;
+    border-radius: 4px;
+    font-size: 13px;
+}
 
-    main > section {
-        position: relative;
-        z-index: 1;
-        background: white;
-        width: 600px;
-        
-    }
-    main > section h1 {
-        color: #121212;
-        font: 40px helvetica,georgia;
-        margin: 30px;
-        font-size: 2rem;
-        font-weight: 600;
-        margin: 15px 0;    
-    }
-    .picture figure img {
-        width: 800px;
-    }
+/* Main content */
+main {
+  margin-top: 7rem;
+}
 
-    section>header figure{
-        display: block;
-        position: relative;
-        left: -100px;
-    }
-    section>header figcaption {
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 14px;
-        color: #333;
-        line-height: 1.5;
-        display: block;
-        position: relative;
-        left: -100px;
-    }
-    section>header figcaption span{
-        color: #888888;
-        font-family: sans-serif 27px;    
-    }
+main section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  margin: auto;
+}
+
+main section h1 {
+  color: #121212;
+  font-size: 2.7rem;
+  font-style: italic;
+  max-width: 600px;
+  margin-top: 0
+}
+
+main section figcaption {
+  color: #666666;
+  font-size: 15px;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+}
+
+main section figcaption span {
+  color: #888888
+}
+
+/* Blog articles */
+.blog-article {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.blog-article .author {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 15px;
+  color: #333333;
+  font-weight: 700px
+}
+.blog-article .author a {
+  color: inherit;
+}
+.blog-article .author a:hover{
+  text-decoration: none
+}
+
+.blog-article .blog-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-article .blog-details .date-posted {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 300;
+  color: #333333
+}
+
+.blog-article .blog-details .reactions {
+  list-style-type: none;
+}
+
+.reaction-item {
+  display: inline-flex;
+  margin-right: .25rem
+}
+
+.reaction-item.share-btn {
+  border-radius: 50%;
+  padding: .5rem;
+  background-color: #eeeeee
+}
