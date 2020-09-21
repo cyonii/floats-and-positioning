@@ -38,25 +38,61 @@ nav {
             align-items: center;
 
  }
- .center-item img {
-     width: 232px;   
- }
- .center-item>div{
-    width: 50%;
-  }
- .right-items{
-    justify-content: center;
-    float: right;
-    padding: 13px 20px 12px;
- }
- .right-items button{
-     padding: 8px;
-     margin:4px;
-     color: #ffffff;
-     background: #326891;
-     border: 1px solid #326891;
-     border-radius: 4px;
-     font-size: 13px;
-     
-     
- }
+    .center-item img {
+        width: 232px;   
+    }
+    .center-item > div {
+        width: 50%;
+    }
+    .right-items {
+        justify-content: center;
+        float: right;
+        padding: 13px 20px 12px;
+    }
+    .right-items button {
+        padding: 8px;
+        margin:4px;
+        color: #ffffff;
+        background: #326891;
+        border: 1px solid #326891;
+        border-radius: 4px;
+        font-size: 13px;   
+    }
+
+    main > section {
+        position: relative;
+        z-index: 1;
+        background: white;
+        width: 600px;
+        
+    }
+    main > section h1 {
+        color: #121212;
+        font: 40px helvetica,georgia;
+        margin: 30px;
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 15px 0;    
+    }
+    .picture figure img {
+        width: 800px;
+    }
+
+    section>header figure{
+        display: block;
+        position: relative;
+        left: -100px;
+    }
+    section>header figcaption {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 14px;
+        color: #333;
+        line-height: 1.5;
+        display: block;
+        position: relative;
+        left: -100px;
+    }
+    section>header figcaption span{
+        color: #888888;
+        font-family: sans-serif 27px;    
+    }
