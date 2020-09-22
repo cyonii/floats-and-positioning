@@ -171,6 +171,11 @@ hr {
   margin: auto;
 }
 
+.grid-3x2 .grid-3x2-item figcaption {
+  color: #121212;
+  font-size: 18px;
+}
+
 #main section figcaption {
   color: #666;
   font-size: 15px;
@@ -318,6 +323,11 @@ hr.short-line {
   border-bottom: 1px solid #e2e2e2;
 }
 
+#most-popular li {
+  border-top: 1px solid rgb(179, 179, 179);
+  padding: 1rem 0;
+}
+
 #editors-choice ul li {
   display: flex;
   align-items: center;
@@ -328,12 +338,6 @@ hr.short-line {
 
 .editors-choice-img {
   margin-right: 0.5rem;
-}
-
-#editors-choice ul li a {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 17px;
 }
 
 .subscribe {
@@ -413,20 +417,16 @@ hr.short-line {
   margin: 0;
 }
 
-.grid-3x2 .grid-3x2-item figcaption {
-  color: #121212;
-  font-size: 18px;
-}
-
-#most-popular li {
-  border-top: 1px solid rgb(179, 179, 179);
-  padding: 1rem 0;
-}
-
 #most-popular a {
   color: #121212;
   font-size: 19px;
   line-height: 1.2rem;
+}
+
+#editors-choice a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
 }
 
 .photo-credit {
@@ -492,11 +492,6 @@ footer .footer-header::after {
 
 #main-footer nav:last-of-type a:not(:first-child) {
   margin: 0 5px;
-}
-
-.footer-links-section li a:hover,
-#main-footer nav:last-of-type a:hover {
-  text-decoration: underline;
 }
 
 .footer-links-section {
