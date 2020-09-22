@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Floats and Positioning
 
 > This project is a clone of a page in New York Times' website, which is a part of the Microverse HTML and CSS curriculum.
 
@@ -50,7 +50,3 @@ Give a ⭐️ if you like this project!
 
 - Microverse
 - New York Times
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
