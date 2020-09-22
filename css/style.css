@@ -165,24 +165,6 @@ main section figcaption span {
   color: #888;
 }
 
-aside {
-  float: right;
-  max-width: 20%;
-  position: absolute;
-  width: 200px;
-  right: 0;
-  z-index: 0;
-  border-bottom: 1px solid #afa6a6;
-}
-
-aside img {
-  width: 75px;
-}
-
-aside .img-details {
-  font-size: 10px;
-}
-
 /* Grid */
 .grid-item p {
   font-size: 14px;
@@ -316,8 +298,23 @@ hr.short-line {
 
 /* Editor's choice */
 #editors-choice {
+  float: right;
+  max-width: 20%;
+  position: absolute;
+  width: 200px;
+  right: 0;
+  z-index: 0;
+  border-bottom: 1px solid #afa6a6;
   margin-right: 4rem;
   border: none;
+}
+
+#editors-choice img {
+  width: 75px;
+}
+
+#editors-choice .img-details {
+  font-size: 10px;
 }
 
 #editors-choice h2 {
