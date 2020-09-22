@@ -165,6 +165,10 @@ main section figcaption span {
   color: #888;
 }
 
+.second-child ul li a {
+  font-size: 11px;
+}
+
 /* Grid */
 .grid-item p {
   font-size: 14px;
@@ -175,6 +179,11 @@ main section figcaption span {
 .grid-item p span {
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.footer-header a {
+  font-size: 11px;
+  text-align: center;
 }
 
 .footer-links-section li a {
@@ -196,6 +205,11 @@ main section figcaption span {
 
 .rec-header a:not(:hover) {
   text-decoration: none;
+}
+
+.footer-links-section li a:hover,
+#main-footer nav:last-of-type a:hover {
+  text-decoration: underline;
 }
 
 /* Blog articles */
@@ -426,6 +440,20 @@ hr.short-line {
   align-items: center;
 }
 
+#most-popular ul li a {
+  text-decoration: none;
+  color: #121212;
+  font-size: 19px;
+  line-height: 1.2rem;
+}
+
+#main-footer .footer-header a {
+  text-decoration: none;
+  color: #567b95;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
 /* More reads section */
 #more-reads-section {
   display: grid;
@@ -479,20 +507,6 @@ hr.short-line {
 
 #main-footer nav:last-of-type a:not(:first-child) {
   margin: 0 5px;
-}
-
-#most-popular ul li a {
-  text-decoration: none;
-  color: #121212;
-  font-size: 19px;
-  line-height: 1.2rem;
-}
-
-#main-footer .footer-header a {
-  text-decoration: none;
-  color: #567b95;
-  font-size: 11px;
-  font-family: sans-serif;
 }
 
 #most-popular ul li a:hover {
@@ -554,11 +568,6 @@ hr.short-line {
   padding-top: 0.5rem;
 }
 
-.footer-header a {
-  font-size: 11px;
-  text-align: center;
-}
-
 .footer-links-section {
   display: grid;
   grid-template-columns: 80% 20%;
@@ -575,10 +584,6 @@ hr.short-line {
   padding-left: 15px;
 }
 
-.second-child ul li a {
-  font-size: 11px;
-}
-
 .bold-link {
   font-weight: bold !important;
   font-size: 16px !important;
@@ -588,9 +593,4 @@ hr.short-line {
 
 .bold-link i {
   margin-right: 0.5rem;
-}
-
-.footer-links-section li a:hover,
-#main-footer nav:last-of-type a:hover {
-  text-decoration: underline;
 }
