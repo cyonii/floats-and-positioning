@@ -31,6 +31,7 @@ p a {
 
 a:hover {
   text-decoration: underline;
+  opacity: 0.6;
 }
 
 ul {
@@ -74,11 +75,19 @@ hr {
 }
 
 .fs-11 {
-  font-size: 11px;
+  font-size: 11px !important;
+}
+
+.ff-sans-serif {
+  font-family: sans-serif;
 }
 
 .w-100 {
   width: 100%;
+}
+
+.link-primary {
+  color: #567b95;
 }
 
 /* header navigation */
@@ -182,14 +191,9 @@ hr {
 
 /* Grid */
 .grid-item p {
-  font-size: 14px;
+  font-size: 13px;
   font-family: sans-serif;
   font-weight: 300;
-}
-
-.grid-item p span {
-  text-transform: uppercase;
-  font-weight: bold;
 }
 
 .rec-header {
@@ -316,6 +320,11 @@ hr.short-line {
   margin-right: 0.5rem;
 }
 
+.footer-links-section li a:hover,
+#main-footer nav:last-of-type a:hover {
+  text-decoration: underline;
+}
+
 #editors-choice ul li a {
   font-family: georgia, "times new roman";
   font-size: 14px;
@@ -417,10 +426,6 @@ hr.short-line {
   line-height: 1.2rem;
 }
 
-#most-popular ul li a:hover {
-  opacity: 0.6;
-}
-
 .photo-credit {
   display: flex;
   justify-content: flex-end;
@@ -469,12 +474,6 @@ footer .footer-header::after {
   width: 100%;
 }
 
-#main-footer .footer-header a {
-  color: #567b95;
-  font-size: 11px;
-  font-family: sans-serif;
-}
-
 #main-footer nav:last-of-type {
   text-align: center;
   border-top: 1px solid #eee;
@@ -502,11 +501,6 @@ footer .footer-header::after {
   margin: 15px 0;
 }
 
-.footer-header a {
-  font-size: 11px;
-  text-align: center;
-}
-
 .footer-links-section {
   display: grid;
   grid-template-columns: 80% 20%;
@@ -532,9 +526,4 @@ footer .footer-header::after {
 
 .bold-link i {
   margin-right: 0.5rem;
-}
-
-.footer-links-section li a:hover,
-#main-footer nav:last-of-type a:hover {
-  text-decoration: underline;
 }
