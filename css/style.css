@@ -4,7 +4,7 @@
 
 body {
   background-color: #fff;
-  font-family: nyt-imperial, georgia, "times new roman", times, serif
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,7 +26,18 @@ p a {
 }
 
 hr {
-  border-color: #000
+  border-color: #000;
+}
+
+/* Utility classes */
+.invisible-divider {
+  border: 0;
+  outline: 0;
+  margin: 0.5rem;
+}
+
+.mb-small {
+  margin-bottom: 0.25rem;
 }
 
 .caption {
@@ -37,7 +48,7 @@ hr {
 
 li.divider {
   border-bottom: 1px solid #e2e2e2;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 /* nav-sectiion styling */
@@ -138,7 +149,7 @@ main section h1 {
   font-size: 1.7rem;
   font-style: italic;
   max-width: 600px;
-  margin-top: 0
+  margin-top: 0;
 }
 
 main section figcaption {
@@ -148,7 +159,7 @@ main section figcaption {
 }
 
 main section figcaption span {
-  color: #888888
+  color: #888888;
 }
 
 /* Blog articles */
@@ -161,7 +172,7 @@ main section figcaption span {
   font-family: helvetica, arial, sans-serif;
   font-size: 15px;
   color: #333333;
-  font-weight: 700px
+  font-weight: 700px;
 }
 
 .blog-article .author a {
@@ -169,7 +180,7 @@ main section figcaption span {
 }
 
 .blog-article .author a:hover {
-  text-decoration: none
+  text-decoration: none;
 }
 
 .blog-article .blog-details {
@@ -182,7 +193,7 @@ main section figcaption span {
   margin: 0;
   font-size: 13px;
   font-weight: 300;
-  color: #656565
+  color: #656565;
 }
 
 .reactions {
@@ -200,7 +211,7 @@ main section figcaption span {
 .reaction-item.share-btn {
   border-radius: 50%;
   padding: 0.5rem;
-  background-color: #e2e2e2
+  background-color: #e2e2e2;
 }
 
 .blog-article .article-content p {
@@ -210,7 +221,7 @@ main section figcaption span {
   float: left;
   justify-content: space-around;
   margin-top: 20px;
-  margin-bottom: 0
+  margin-bottom: 0;
 }
 
 .blog-article.thanks {
@@ -251,7 +262,7 @@ hr.short-line {
   font-weight: 700;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid #e2e2e2
+  border-bottom: 1px solid #e2e2e2;
 }
 
 #editors-choice ul {
@@ -321,7 +332,7 @@ hr.short-line {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 5px;
-  width: 100%
+  width: 100%;
 }
 
 .grid-item img {
@@ -341,7 +352,7 @@ hr.short-line {
 }
 
 .fig {
-  margin-top: 1rem
+  margin-top: 1rem;
 }
 
 .fig img {
@@ -365,7 +376,7 @@ hr.short-line {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
 }
 
 /* More reads section */
@@ -395,11 +406,11 @@ hr.short-line {
 #space-and-astronomy .grid-3x2 {
   display: grid;
   grid-gap: 15px;
-  grid-template-columns: repeat(3, 1fr)
+  grid-template-columns: repeat(3, 1fr);
 }
 
 #space-and-astronomy .grid-3x2 .grid-3x2-item figure {
-  margin: 0
+  margin: 0;
 }
 
 #space-and-astronomy .grid-3x2 .grid-3x2-item figcaption {
@@ -409,7 +420,7 @@ hr.short-line {
 
 #most-popular ul {
   list-style: none;
-  padding: 0
+  padding: 0;
 }
 
 #most-popular ul li {
@@ -425,14 +436,14 @@ hr.short-line {
 }
 
 #most-popular ul li a:hover {
-  opacity: 0.6
+  opacity: 0.6;
 }
 
 .photo-credit {
   display: flex;
   justify-content: flex-end;
   font-size: 12px;
-  color: rgb(164, 164, 164)
+  color: rgb(164, 164, 164);
 }
 
 #editors-pick {
@@ -491,12 +502,6 @@ footer {
   text-align: center;
 }
 
-section>div.footer-links {
-  display: inline-flex;
-  position: relative;
-  align-items: center;
-}
-
 .footer-links-section {
   display: grid;
   grid-template-columns: 80% 20%;
@@ -513,6 +518,10 @@ section>div.footer-links {
   padding-left: 15px;
 }
 
+.second-child ul li a {
+  font-size: 11px;
+}
+
 .footer-links-section ul {
   list-style: none;
   padding: 0;
@@ -523,7 +532,7 @@ section>div.footer-links {
   align-items: center;
   text-decoration: none;
   font-family: sans-serif;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 21px;
   margin: 15px 0;
 }
@@ -559,7 +568,7 @@ footer section:last-of-type a:not(:first-child) {
 }
 
 .bold-link i {
-  margin-right: 0.5rem
+  margin-right: 0.5rem;
 }
 
 aside {
