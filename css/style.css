@@ -203,6 +203,16 @@ hr {
   line-height: 22px;
 }
 
+.footer-links-section a {
+  color: #333;
+  align-items: center;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 15px 0;
+}
+
 .rec-header a:not(:hover) {
   text-decoration: none;
 }
@@ -320,13 +330,7 @@ hr.short-line {
   margin-right: 0.5rem;
 }
 
-.footer-links-section li a:hover,
-#main-footer nav:last-of-type a:hover {
-  text-decoration: underline;
-}
-
 #editors-choice ul li a {
-  font-family: georgia, "times new roman";
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -399,28 +403,27 @@ hr.short-line {
   padding-top: 1rem;
 }
 
-#space-and-astronomy .grid-3x2 {
+.grid-3x2 {
   display: grid;
   grid-gap: 15px;
   grid-template-columns: repeat(3, 1fr);
 }
 
-#space-and-astronomy .grid-3x2 .grid-3x2-item figure {
+.grid-3x2 .grid-3x2-item figure {
   margin: 0;
 }
 
-#space-and-astronomy .grid-3x2 .grid-3x2-item figcaption {
+.grid-3x2 .grid-3x2-item figcaption {
   color: #121212;
   font-size: 18px;
 }
 
-#most-popular ul li {
+#most-popular li {
   border-top: 1px solid rgb(179, 179, 179);
   padding: 1rem 0;
 }
 
-#most-popular ul li a {
-  text-decoration: none;
+#most-popular a {
   color: #121212;
   font-size: 19px;
   line-height: 1.2rem;
@@ -491,14 +494,9 @@ footer .footer-header::after {
   margin: 0 5px;
 }
 
-.footer-links-section a {
-  color: #333;
-  align-items: center;
-  text-decoration: none;
-  font-family: sans-serif;
-  font-size: 14px;
-  line-height: 21px;
-  margin: 15px 0;
+.footer-links-section li a:hover,
+#main-footer nav:last-of-type a:hover {
+  text-decoration: underline;
 }
 
 .footer-links-section {
