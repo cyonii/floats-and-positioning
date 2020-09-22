@@ -165,6 +165,25 @@ main section figcaption span {
   color: #888;
 }
 
+.footer-header a {
+  font-size: 11px;
+  text-align: center;
+}
+
+.blog-article .author a {
+  color: inherit;
+}
+
+.footer-links-section li a {
+  color: #333;
+  align-items: center;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 15px 0;
+}
+
 .second-child ul li a {
   font-size: 11px;
 }
@@ -181,21 +200,6 @@ main section figcaption span {
   font-weight: bold;
 }
 
-.footer-header a {
-  font-size: 11px;
-  text-align: center;
-}
-
-.footer-links-section li a {
-  color: #333;
-  align-items: center;
-  text-decoration: none;
-  font-family: sans-serif;
-  font-size: 14px;
-  line-height: 21px;
-  margin: 15px 0;
-}
-
 .rec-header {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
@@ -205,6 +209,41 @@ main section figcaption span {
 
 .rec-header a:not(:hover) {
   text-decoration: none;
+}
+
+.blog-article .author a:hover {
+  text-decoration: none;
+}
+
+#editors-choice ul li a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+}
+
+#most-popular ul li a {
+  text-decoration: none;
+  color: #121212;
+  font-size: 19px;
+  line-height: 1.2rem;
+}
+
+#main-footer .footer-header a {
+  text-decoration: none;
+  color: #567b95;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+#main-footer nav:last-of-type a {
+  font-size: 11px;
+  font-family: sans-serif;
+  color: #666;
+  text-decoration: none;
+}
+
+#main-footer nav:last-of-type a:not(:first-child) {
+  margin: 0 5px;
 }
 
 .footer-links-section li a:hover,
@@ -223,14 +262,6 @@ main section figcaption span {
   font-size: 15px;
   color: #333;
   font-weight: 700;
-}
-
-.blog-article .author a {
-  color: inherit;
-}
-
-.blog-article .author a:hover {
-  text-decoration: none;
 }
 
 .blog-article .blog-details {
@@ -377,12 +408,6 @@ hr.short-line {
   margin-right: 0.5rem;
 }
 
-#editors-choice ul li a {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 17px;
-}
-
 .sub {
   color: #326891;
   font-weight: bold;
@@ -440,20 +465,6 @@ hr.short-line {
   align-items: center;
 }
 
-#most-popular ul li a {
-  text-decoration: none;
-  color: #121212;
-  font-size: 19px;
-  line-height: 1.2rem;
-}
-
-#main-footer .footer-header a {
-  text-decoration: none;
-  color: #567b95;
-  font-size: 11px;
-  font-family: sans-serif;
-}
-
 /* More reads section */
 #more-reads-section {
   display: grid;
@@ -496,17 +507,6 @@ hr.short-line {
 #most-popular ul li {
   border-top: 1px solid rgb(179, 179, 179);
   padding: 1rem 0;
-}
-
-#main-footer nav:last-of-type a {
-  font-size: 11px;
-  font-family: sans-serif;
-  color: #666;
-  text-decoration: none;
-}
-
-#main-footer nav:last-of-type a:not(:first-child) {
-  margin: 0 5px;
 }
 
 #most-popular ul li a:hover {
