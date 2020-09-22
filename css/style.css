@@ -177,6 +177,16 @@ main section figcaption span {
   font-weight: bold;
 }
 
+.footer-links-section li a {
+  color: #333;
+  align-items: center;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 15px 0;
+}
+
 .rec-header {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
@@ -309,6 +319,10 @@ hr.short-line {
   border: none;
 }
 
+.footer-header img {
+  width: 223px;
+}
+
 #editors-choice img {
   width: 75px;
 }
@@ -324,6 +338,11 @@ hr.short-line {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid #e2e2e2;
+}
+
+.footer-links-section ul {
+  list-style: none;
+  padding: 0;
 }
 
 #editors-choice ul {
@@ -345,7 +364,6 @@ hr.short-line {
 }
 
 #editors-choice ul li a {
-  font-family: georgia, "times new roman";
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -452,11 +470,29 @@ hr.short-line {
   padding: 1rem 0;
 }
 
+#main-footer nav:last-of-type a {
+  font-size: 11px;
+  font-family: sans-serif;
+  color: #666;
+  text-decoration: none;
+}
+
+#main-footer nav:last-of-type a:not(:first-child) {
+  margin: 0 5px;
+}
+
 #most-popular ul li a {
   text-decoration: none;
   color: #121212;
   font-size: 19px;
   line-height: 1.2rem;
+}
+
+#main-footer .footer-header a {
+  text-decoration: none;
+  color: #567b95;
+  font-size: 11px;
+  font-family: sans-serif;
 }
 
 #most-popular ul li a:hover {
@@ -474,7 +510,7 @@ hr.short-line {
   margin-top: 2rem;
 }
 
-footer .footer-header {
+#main-footer .footer-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -482,17 +518,13 @@ footer .footer-header {
   margin-bottom: 1rem;
 }
 
-footer .footer-header::after {
+#main-footer .footer-header::after {
   position: absolute;
   top: -1rem;
   content: '';
   height: 2px;
   background-color: #e2e2e2;
   width: 100%;
-}
-
-.footer-header img {
-  width: 223px;
 }
 
 .footer-header-link {
@@ -515,44 +547,11 @@ footer .footer-header::after {
   width: 100%;
 }
 
-#main-footer .footer-header a {
-  text-decoration: none;
-  color: #567b95;
-  font-size: 11px;
-  font-family: sans-serif;
-}
-
 #main-footer nav:last-of-type {
   text-align: center;
   border-top: 1px solid #eee;
   margin-top: 0.5rem;
   padding-top: 0.5rem;
-}
-
-#main-footer nav:last-of-type a {
-  font-size: 11px;
-  font-family: sans-serif;
-  color: #666;
-  text-decoration: none;
-}
-
-#main-footer nav:last-of-type a:not(:first-child) {
-  margin: 0 5px;
-}
-
-.footer-links-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-links-section li a {
-  color: #333;
-  align-items: center;
-  text-decoration: none;
-  font-family: sans-serif;
-  font-size: 14px;
-  line-height: 21px;
-  margin: 15px 0;
 }
 
 .footer-header a {
