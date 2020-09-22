@@ -165,29 +165,6 @@ main section figcaption span {
   color: #888;
 }
 
-.footer-header a {
-  font-size: 11px;
-  text-align: center;
-}
-
-.blog-article .author a {
-  color: inherit;
-}
-
-.footer-links-section li a {
-  color: #333;
-  align-items: center;
-  text-decoration: none;
-  font-family: sans-serif;
-  font-size: 14px;
-  line-height: 21px;
-  margin: 15px 0;
-}
-
-.second-child ul li a {
-  font-size: 11px;
-}
-
 /* Grid */
 .grid-item p {
   font-size: 14px;
@@ -210,47 +187,9 @@ main section figcaption span {
 .rec-header a:not(:hover) {
   text-decoration: none;
 }
-
-.blog-article .author a:hover {
-  text-decoration: none;
-}
-
-#editors-choice ul li a {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 17px;
-}
-
-#most-popular ul li a {
-  text-decoration: none;
-  color: #121212;
-  font-size: 19px;
-  line-height: 1.2rem;
-}
-
-#main-footer .footer-header a {
-  text-decoration: none;
-  color: #567b95;
+.second-child ul li a {
   font-size: 11px;
-  font-family: sans-serif;
 }
-
-#main-footer nav:last-of-type a {
-  font-size: 11px;
-  font-family: sans-serif;
-  color: #666;
-  text-decoration: none;
-}
-
-#main-footer nav:last-of-type a:not(:first-child) {
-  margin: 0 5px;
-}
-
-.footer-links-section li a:hover,
-#main-footer nav:last-of-type a:hover {
-  text-decoration: underline;
-}
-
 /* Blog articles */
 .blog-article {
   max-width: 600px;
@@ -262,6 +201,14 @@ main section figcaption span {
   font-size: 15px;
   color: #333;
   font-weight: 700;
+}
+
+.blog-article .author a {
+  color: inherit;
+}
+
+.blog-article .author a:hover {
+  text-decoration: none;
 }
 
 .blog-article .blog-details {
@@ -352,6 +299,8 @@ hr.short-line {
 }
 
 /* Editor's choice */
+  
+
 #editors-choice {
   float: right;
   max-width: 20%;
@@ -360,12 +309,7 @@ hr.short-line {
   right: 0;
   z-index: 0;
   border-bottom: 1px solid #afa6a6;
-  margin-right: 4rem;
-  border: none;
-}
-
-.footer-header img {
-  width: 223px;
+  
 }
 
 #editors-choice img {
@@ -406,6 +350,13 @@ hr.short-line {
 
 #editors-choice ul li img {
   margin-right: 0.5rem;
+}
+
+#editors-choice ul li a {
+  font-family: georgia, "times new roman";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
 }
 
 .sub {
@@ -509,6 +460,13 @@ hr.short-line {
   padding: 1rem 0;
 }
 
+#most-popular ul li a {
+  text-decoration: none;
+  color: #121212;
+  font-size: 19px;
+  line-height: 1.2rem;
+}
+
 #most-popular ul li a:hover {
   opacity: 0.6;
 }
@@ -524,7 +482,7 @@ hr.short-line {
   margin-top: 2rem;
 }
 
-#main-footer .footer-header {
+footer .footer-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -532,13 +490,17 @@ hr.short-line {
   margin-bottom: 1rem;
 }
 
-#main-footer .footer-header::after {
+footer .footer-header::after {
   position: absolute;
   top: -1rem;
   content: '';
   height: 2px;
   background-color: #e2e2e2;
   width: 100%;
+}
+
+.footer-header img {
+  width: 223px;
 }
 
 .footer-header-link {
@@ -561,11 +523,49 @@ hr.short-line {
   width: 100%;
 }
 
+#main-footer .footer-header a {
+  text-decoration: none;
+  color: #567b95;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
 #main-footer nav:last-of-type {
   text-align: center;
   border-top: 1px solid #eee;
   margin-top: 0.5rem;
   padding-top: 0.5rem;
+}
+
+#main-footer nav:last-of-type a {
+  font-size: 11px;
+  font-family: sans-serif;
+  color: #666;
+  text-decoration: none;
+}
+
+#main-footer nav:last-of-type a:not(:first-child) {
+  margin: 0 5px;
+}
+
+.footer-links-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links-section li a {
+  color: #333;
+  align-items: center;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 15px 0;
+}
+
+.footer-header a {
+  font-size: 11px;
+  text-align: center;
 }
 
 .footer-links-section {
@@ -584,6 +584,8 @@ hr.short-line {
   padding-left: 15px;
 }
 
+
+
 .bold-link {
   font-weight: bold !important;
   font-size: 16px !important;
@@ -593,4 +595,9 @@ hr.short-line {
 
 .bold-link i {
   margin-right: 0.5rem;
+}
+
+.footer-links-section li a:hover,
+#main-footer nav:last-of-type a:hover {
+  text-decoration: underline;
 }
