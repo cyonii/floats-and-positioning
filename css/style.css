@@ -11,6 +11,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 1.5rem;
 }
+.caption{
+  font-size: 15px;
+  color: #666666;
+  text-align: left;
+}
 
 /* nav-sectiion styling */
 nav {
@@ -236,7 +241,6 @@ hr {
   width: 100%
 }
 
-.grid-item {}
 
 .grid-item img {
   height: 130px;
@@ -252,4 +256,9 @@ hr {
 .grid-item p span {
   text-transform: uppercase;
   font-weight: bold;
+}
+.fig img {
+  align-items: center;
+  width: 800px;
+  margin: auto;
 }
