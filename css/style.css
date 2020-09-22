@@ -1,3 +1,6 @@
+@import "https://fonts.googleapis.com/css?family=Sriracha&display=swap";
+@import "https://fonts.googleapis.com/css?family=Slabo+27px|Source+Sans+Pro&display=swap";
+
 * {
   box-sizing: border-box;
 }
@@ -545,25 +548,25 @@ footer {
 }
 
 .footer-links-section li a:hover,
-footer section:last-of-type a:hover {
+footer nav:last-of-type a:hover {
   text-decoration: underline;
 }
 
-footer section:last-of-type {
+footer nav:last-of-type {
   text-align: center;
   border-top: 1px solid #eee;
   margin-top: 0.5rem;
   padding-top: 0.5rem;
 }
 
-footer section:last-of-type a {
+footer nav:last-of-type a {
   font-size: 11px;
   font-family: sans-serif;
   color: #666;
   text-decoration: none;
 }
 
-footer section:last-of-type a:not(:first-child) {
+footer nav:last-of-type a:not(:first-child) {
   margin: 0 5px;
 }
 
