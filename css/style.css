@@ -311,6 +311,8 @@ hr.short-line {
 
 .embeded-video iframe {
   margin-top: 40px;
+  width: 100%;
+  border: none;
 }
 
 #inflation-section h1 {
@@ -413,6 +415,10 @@ hr.short-line {
   margin: 0;
 }
 
+#space-and-astronomy .grid-3x2 .grid-3x2-item figure img {
+  width: 100%;
+}
+
 #space-and-astronomy .grid-3x2 .grid-3x2-item figcaption {
   color: #121212;
   font-size: 18px;
@@ -455,6 +461,7 @@ footer .footer-header {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  margin-bottom: 1rem;
 }
 
 footer .footer-header::after {
