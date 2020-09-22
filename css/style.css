@@ -11,7 +11,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 1.5rem;
 }
-.caption{
+
+hr {
+  border-color: #000
+}
+
+.caption {
   font-size: 15px;
   color: #666666;
   text-align: left;
@@ -73,7 +78,16 @@ nav {
   padding: 13px 20px 12px;
 }
 
-.right-items button {
+a.btn {
+  text-decoration: none;
+}
+
+.btn {
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.btn-primary {
   padding: 8px;
   margin: 4px;
   color: #ffffff;
@@ -81,6 +95,7 @@ nav {
   border: 1px solid #326891;
   border-radius: 4px;
   font-size: 13px;
+  text-transform: uppercase;
 }
 
 /* Main content */
@@ -142,20 +157,23 @@ main section figcaption span {
   align-items: center;
 }
 
-.blog-article .blog-details .date-posted {
+.date-posted {
   margin: 0;
   font-size: 13px;
   font-weight: 300;
-  color: #333333
+  color: #656565
 }
 
-.blog-article .blog-details .reactions {
+.reactions {
   list-style-type: none;
+  display: inline-flex;
+  align-items: center;
 }
 
 .reaction-item {
   display: inline-flex;
-  margin-right: .25rem
+  margin-right: .25rem;
+  cursor: pointer;
 }
 
 .reaction-item.share-btn {
@@ -193,7 +211,7 @@ main section figcaption span {
   font-size: 15px;
 }
 
-hr {
+hr.short-line {
   font-size: 10px;
   line-height: 13px;
   text-align: center;
@@ -217,6 +235,7 @@ hr {
 #inflation-section {
   width: 900px;
   margin: auto;
+  margin-top: 3rem;
 }
 
 #inflation-section h1 {
@@ -236,11 +255,10 @@ hr {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 5px;
   width: 100%
 }
-
 
 .grid-item img {
   height: 130px;
@@ -257,8 +275,87 @@ hr {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+.fig {
+  margin-top: 1rem
+}
+
 .fig img {
-  align-items: center;
   width: 800px;
   margin: auto;
+  text-align: center;
+}
+
+.article-citation {
+  font-size: 13px;
+  font-family: sans-serif;
+  color: #666;
+  margin-top: 14rem;
+}
+
+.article-more {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center
+}
+
+/* More reads section */
+#more-reads-section {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: 70% 30%;
+  padding: 0 10%;
+}
+
+#space-and-astronomy, #most-popular, #editors-pick {
+  border-top: 2px solid #3b3b3b;
+  padding-top: 1rem;
+}
+
+#space-and-astronomy .grid-3x2 {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(3, 1fr)
+}
+
+#space-and-astronomy .grid-3x2 .grid-3x2-item figure {
+  margin: 0
+}
+
+#space-and-astronomy .grid-3x2 .grid-3x2-item figcaption {
+  color: #121212;
+  font-size: 18px;
+}
+
+#most-popular ul {
+  list-style: none;
+  padding: 0
+}
+
+#most-popular ul li {
+  border-top: 1px solid rgb(179, 179, 179);
+  padding: 1rem 0;
+}
+
+#most-popular ul li a {
+  text-decoration: none;
+  color: #121212;
+  font-size: 19px;
+  line-height: 1.2rem;
+}
+
+#most-popular ul li a:hover {
+  opacity: .6
+}
+
+.photo-credit {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  color: rgb(164, 164, 164)
+}
+
+#editors-pick {
+  margin-top: 2rem;
 }
