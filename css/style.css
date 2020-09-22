@@ -33,6 +33,11 @@ a:hover {
   text-decoration: underline;
 }
 
+ul {
+  padding: 0;
+  list-style: none;
+}
+
 hr {
   border-color: #000;
 }
@@ -94,7 +99,6 @@ hr {
 }
 
 .left-items ul {
-  list-style: none;
   display: flex;
 }
 
@@ -158,14 +162,6 @@ hr {
   margin: auto;
 }
 
-#main section h1 {
-  color: #121212;
-  font-size: 1.7rem;
-  font-style: italic;
-  max-width: 600px;
-  margin-top: 0;
-}
-
 #main section figcaption {
   color: #666;
   font-size: 15px;
@@ -174,6 +170,14 @@ hr {
 
 #main section figcaption span {
   color: #888;
+}
+
+.article-header {
+  color: #121212;
+  font-size: 1.7rem;
+  font-style: italic;
+  max-width: 600px;
+  margin-top: 0;
 }
 
 /* Grid */
@@ -212,14 +216,6 @@ hr {
   font-weight: 700;
 }
 
-.blog-article .author a {
-  color: inherit;
-}
-
-.blog-article .author a:hover {
-  text-decoration: none;
-}
-
 .blog-article .blog-details {
   display: flex;
   justify-content: space-between;
@@ -234,7 +230,6 @@ hr {
 }
 
 .reactions {
-  list-style-type: none;
   display: inline-flex;
   align-items: center;
 }
@@ -268,12 +263,7 @@ hr {
   position: relative;
 }
 
-.thanks ul {
-  list-style: none;
-}
-
 .thanks li {
-  list-style: none;
   margin: 10px;
   text-align: center;
   font-weight: bold;
@@ -314,17 +304,6 @@ hr.short-line {
   border-bottom: 1px solid #e2e2e2;
 }
 
-.footer-links-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-#editors-choice ul {
-  position: relative;
-  width: 100%;
-  padding: 0;
-}
-
 #editors-choice ul li {
   display: flex;
   align-items: center;
@@ -363,11 +342,6 @@ hr.short-line {
   margin-top: 40px;
   width: 100%;
   border: none;
-}
-
-#inflation-section h1 {
-  margin-top: 4rem;
-  margin-bottom: 0;
 }
 
 #inflation-section .desc {
@@ -429,11 +403,6 @@ hr.short-line {
 #space-and-astronomy .grid-3x2 .grid-3x2-item figcaption {
   color: #121212;
   font-size: 18px;
-}
-
-#most-popular ul {
-  list-style: none;
-  padding: 0;
 }
 
 #most-popular ul li {
@@ -501,7 +470,6 @@ footer .footer-header::after {
 }
 
 #main-footer .footer-header a {
-  text-decoration: none;
   color: #567b95;
   font-size: 11px;
   font-family: sans-serif;
@@ -518,19 +486,13 @@ footer .footer-header::after {
   font-size: 11px;
   font-family: sans-serif;
   color: #666;
-  text-decoration: none;
 }
 
 #main-footer nav:last-of-type a:not(:first-child) {
   margin: 0 5px;
 }
 
-.footer-links-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-links-section li a {
+.footer-links-section a {
   color: #333;
   align-items: center;
   text-decoration: none;
