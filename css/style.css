@@ -7,7 +7,12 @@ body {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -17,11 +22,11 @@ a {
   color: inherit;
 }
 
-a:hover {
+p a {
   text-decoration: underline;
 }
 
-p a {
+a:hover {
   text-decoration: underline;
 }
 
@@ -42,7 +47,7 @@ hr {
 
 .caption {
   font-size: 15px;
-  color: #666666;
+  color: #666;
   text-align: left;
 }
 
@@ -80,7 +85,6 @@ nav#header-nav {
 }
 
 .left-items ul li strong {
-  font-size: 20px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -96,10 +100,6 @@ nav#header-nav {
 
 .center-item img {
   width: 232px;
-}
-
-.center-item>div {
-  width: 50%;
 }
 
 .right-items {
@@ -120,7 +120,7 @@ a.btn {
 .btn-primary {
   padding: 8px;
   margin: 4px;
-  color: #ffffff;
+  color: #fff;
   background: #326891;
   border: 1px solid #326891;
   border-radius: 4px;
@@ -153,13 +153,36 @@ main section h1 {
 }
 
 main section figcaption {
-  color: #666666;
+  color: #666;
   font-size: 15px;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
 
 main section figcaption span {
-  color: #888888;
+  color: #888;
+}
+
+/* Grid */
+.grid-item p {
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.grid-item p span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.rec-header {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.rec-header a:not(:hover) {
+  text-decoration: none;
 }
 
 /* Blog articles */
@@ -171,8 +194,8 @@ main section figcaption span {
 .blog-article .author {
   font-family: helvetica, arial, sans-serif;
   font-size: 15px;
-  color: #333333;
-  font-weight: 700px;
+  color: #333;
+  font-weight: 700;
 }
 
 .blog-article .author a {
@@ -251,6 +274,26 @@ hr.short-line {
   left: 200px;
 }
 
+.grid-item img {
+  height: 130px;
+  width: 100%;
+}
+
+.fig {
+  margin-top: 1rem;
+}
+
+.fig img {
+  width: 800px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.fig figcaption {
+  width: 600px;
+}
+
+/* Editor's choice */
 #editors-choice {
   margin-right: 4rem;
   border: none;
@@ -284,7 +327,7 @@ hr.short-line {
 }
 
 #editors-choice ul li a {
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-family: georgia, "times new roman";
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -293,10 +336,6 @@ hr.short-line {
 .sub {
   color: #326891;
   font-weight: bold;
-  font-size: 15px;
-}
-
-.sub {
   font-family: georgia, "times new roman", times, serif;
   font-size: 20px;
   text-align: start;
@@ -337,36 +376,6 @@ hr.short-line {
   width: 100%;
 }
 
-.grid-item img {
-  height: 130px;
-  width: 100%;
-}
-
-.grid-item p {
-  font-size: 14px;
-  font-family: sans-serif;
-  font-weight: 300;
-}
-
-.grid-item p span {
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.fig {
-  margin-top: 1rem;
-}
-
-.fig img {
-  width: 800px;
-  margin-top: 40px;
-  text-align: center;
-}
-
-.fig figcaption {
-  width: 600px;
-}
-
 .article-citation {
   font-size: 13px;
   font-family: sans-serif;
@@ -389,18 +398,9 @@ hr.short-line {
   padding: 0 10%;
 }
 
-.rec-header {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 22px;
-}
-
-.rec-header a:not(:hover) {
-  text-decoration: none;
-}
-
-#space-and-astronomy, #most-popular, #editors-pick {
+#space-and-astronomy,
+#most-popular,
+#editors-pick {
   border-top: 2px solid #3b3b3b;
   padding-top: 1rem;
 }
@@ -535,7 +535,7 @@ footer {
 }
 
 .footer-links-section li a {
-  color: #333333;
+  color: #333;
   align-items: center;
   text-decoration: none;
   font-family: sans-serif;
@@ -559,7 +559,7 @@ footer section:last-of-type {
 footer section:last-of-type a {
   font-size: 11px;
   font-family: sans-serif;
-  color: #666666;
+  color: #666;
   text-decoration: none;
 }
 
