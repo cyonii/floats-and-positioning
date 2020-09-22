@@ -30,6 +30,8 @@ Clone this repo and open the index.html file in any browser or web viewer of you
 👤 **Juwon Oluwadare**
 
 - GitHub: [@wintan1418](https://github.com/wintan1418)
+- Twitter: [@juwonoluwadare](https://twitter.com/oluwadarejuwon)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/oluwadare-juwon-048a391a8/)
 
 ## 🤝 Contributing
 
