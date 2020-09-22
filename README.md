@@ -15,11 +15,6 @@ This project was carried out with utmost carefulness to make the clone resemble 
 - Font Awesome
 - Google fonts API
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
 ## Getting Started
 
 Clone this repo and open the index.html file in any browser or web viewer of your choice.
