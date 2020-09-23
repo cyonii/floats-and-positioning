@@ -426,7 +426,7 @@ hr.short-line {
   line-height: 1.2rem;
 }
 
-.editors-choice a {
+.editors-choice-link {
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
