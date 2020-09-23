@@ -41,7 +41,6 @@ Clone this repo and open the index.html file in any browser or web viewer of you
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
 
 ## Show your support
 
