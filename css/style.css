@@ -31,7 +31,7 @@ p a {
 
 a:hover {
   text-decoration: underline;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 ul {
@@ -53,6 +53,11 @@ hr {
 .my-medium {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.my-large {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .mb-small {
@@ -91,7 +96,7 @@ hr {
 }
 
 /* header navigation */
-#header-nav {
+.header-nav {
   display: flex;
   position: fixed;
   justify-content: space-between;
@@ -158,11 +163,11 @@ hr {
 }
 
 /* Main content */
-#main {
+.main {
   margin-top: 7rem;
 }
 
-#main section:first-of-type {
+.main section:first-of-type {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -176,13 +181,13 @@ hr {
   font-size: 18px;
 }
 
-#main section figcaption {
+.main section figcaption {
   color: #666;
   font-size: 15px;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
 
-#main section figcaption span {
+.main section figcaption span {
   color: #888;
 }
 
@@ -271,8 +276,6 @@ hr {
   width: 100%;
   float: left;
   justify-content: space-around;
-  margin-top: 20px;
-  margin-bottom: 0;
 }
 
 .blog-article.thanks {
@@ -303,18 +306,18 @@ hr.short-line {
 }
 
 /* Editor's choice */
-#editors-choice {
+.editors-choice {
   position: absolute;
   width: 250px;
   right: 5rem;
   z-index: 0;
 }
 
-#editors-choice .img-details {
+.editors-choice .img-details {
   font-size: 10px;
 }
 
-#editors-choice h2 {
+.editors-choice h2 {
   font-size: 14px;
   line-height: 14px;
   font-weight: 700;
@@ -323,12 +326,12 @@ hr.short-line {
   border-bottom: 1px solid #e2e2e2;
 }
 
-#most-popular li {
+.most-popular li {
   border-top: 1px solid rgb(179, 179, 179);
   padding: 1rem 0;
 }
 
-#editors-choice ul li {
+.editors-choice ul li {
   display: flex;
   align-items: center;
   position: relative;
@@ -349,7 +352,7 @@ hr.short-line {
   letter-spacing: normal;
 }
 
-#inflation-section {
+.inflation-section {
   width: 900px;
   margin: auto;
   margin-top: 3rem;
@@ -361,12 +364,12 @@ hr.short-line {
   border: none;
 }
 
-#inflation-section .desc {
+.inflation-section .desc {
   color: #666;
   font-size: 0.9rem;
 }
 
-#inflation-section p#contributors {
+.inflation-section p#contributors {
   font-family: sans-serif;
   font-size: 14px;
 }
@@ -393,16 +396,16 @@ hr.short-line {
 }
 
 /* More reads section */
-#more-reads-section {
+.more-reads-section {
   display: grid;
   grid-gap: 1.5rem;
   grid-template-columns: 70% 30%;
   padding: 0 10%;
 }
 
-#space-and-astronomy,
-#most-popular,
-#editors-pick {
+.space-and-astronomy,
+.most-popular,
+.editors-pick {
   border-top: 2px solid #3b3b3b;
   padding-top: 1rem;
 }
@@ -417,13 +420,13 @@ hr.short-line {
   margin: 0;
 }
 
-#most-popular a {
+.most-popular a {
   color: #121212;
   font-size: 19px;
   line-height: 1.2rem;
 }
 
-#editors-choice a {
+.editors-choice a {
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -436,7 +439,7 @@ hr.short-line {
   color: rgb(164, 164, 164);
 }
 
-#editors-pick {
+.editors-pick {
   margin-top: 2rem;
 }
 
@@ -463,12 +466,12 @@ footer .footer-header::after {
   font-size: 10px;
 }
 
-#main-footer {
+.main-footer {
   padding: 10px 10%;
   margin-top: 2rem;
 }
 
-#main-footer .footer-header::before {
+.main-footer .footer-header::before {
   position: absolute;
   top: -0.85rem;
   content: '';
@@ -477,20 +480,20 @@ footer .footer-header::after {
   width: 100%;
 }
 
-#main-footer nav:last-of-type {
+.main-footer nav:last-of-type {
   text-align: center;
   border-top: 1px solid #eee;
   margin-top: 0.5rem;
   padding-top: 0.5rem;
 }
 
-#main-footer nav:last-of-type a {
+.main-footer nav:last-of-type a {
   font-size: 11px;
   font-family: sans-serif;
   color: #666;
 }
 
-#main-footer nav:last-of-type a:not(:first-child) {
+.main-footer nav:last-of-type a:not(:first-child) {
   margin: 0 5px;
 }
 
