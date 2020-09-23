@@ -176,15 +176,15 @@ hr {
   margin: auto;
 }
 
-.grid-3x2 .grid-3x2-item figcaption {
-  color: #121212;
-  font-size: 18px;
-}
-
 .main section figcaption {
   color: #666;
   font-size: 15px;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
+}
+
+.grid-3x2 .grid-3x2-item figcaption {
+  color: #121212;
+  font-size: 18px;
 }
 
 .main section figcaption span {
@@ -420,7 +420,7 @@ hr.short-line {
   margin: 0;
 }
 
-.most-popular a {
+.most-popular-link {
   color: #121212;
   font-size: 19px;
   line-height: 1.2rem;
