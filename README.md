@@ -15,6 +15,10 @@ This project was carried out with utmost carefulness to make the clone resemble 
 - Font Awesome
 - Google fonts API
 
+## Live Demo
+
+[Live Demo Link](https://rawcdn.githack.com/cyonii/floats-and-positioning/8dc0d2d78b1dfedd852e7ce3abde8344042f318a/index.html)
+
 ## Getting Started
 
 Clone this repo and open the index.html file in any browser or web viewer of your choice.
