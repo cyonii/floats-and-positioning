@@ -17,7 +17,7 @@ This project was carried out with utmost carefulness to make the clone resemble 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/cyonii/floats-and-positioning/8dc0d2d78b1dfedd852e7ce3abde8344042f318a/index.html)
+[Live Demo Link](https://rawcdn.githack.com/cyonii/floats-and-positioning/0d128bfb44e09c695be94de2e01d0f34164a81b4/index.html)
 
 ## Getting Started
 
